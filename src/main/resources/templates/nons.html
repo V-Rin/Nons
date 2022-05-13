@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nons Page</title>
+
+    <style>
+
+        @font-face {
+            font-family: "Source Sans Pro";
+            font-style: normal;
+        }
+
+        *{
+            margin: 0px 0px 0px 0%; /* Значения отступов */
+            color: rgb(20, 35, 54);
+            border-color: rgb(20, 35, 54);
+        }
+
+        body{
+            height: auto;
+            font-family: 'Source Sans Pro', sans-serif, "Arial";
+            background-image: url("Images/background.jpg");
+        }
+
+        #header { /* Верхний блок */
+            background: white; /* Цвет фона */
+            align-content: center;
+            height: 10vh;
+            border-bottom: solid 0.5vh;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        #footer{
+            background: white; /* Цвет фона */
+            height: 5vh;
+            align-content: center;
+            border-top: solid 0.5vh;
+            font-size: 2vh;
+            vertical-align: center;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        #content { /* Правая колонка */
+            /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+            height: 100%;
+            width: 50vw;
+            /*border-right: solid 0.5vh;
+            border-left: solid 0.5vh;*/
+            background: rgba(255, 255, 255, 0.886); /* Цвет фона */
+            box-shadow: 0 0 5px 10px rgba(255, 255, 255, 0.886);
+        }
+
+        #wrapper{
+            display: flex;
+            justify-content: space-evenly;
+            height: 85vh;
+        }
+
+        #logo{
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <img id="logo" src="Images/logo.png">
+    </div>
+
+    <div id="wrapper">
+        <div id="content">
+            <div>
+                <h2 align="center" style="font-style: italic">
+                    <br> Если вы всегда хотели получить нонограмм из выбранной фотографии - то вы пришли по адресу!
+                </h2>
+                <span>
+                    <br>Мы еще развиваемся, поэтому для обеспечения красоты
+                    будущего нонограмма есть рекомендуемые требования к фотографии:
+                    <br> <br> * желательно, чтобы картинка была квадратной (разрешения x*x);
+                    <br> <br> * желательно, чтобы картинка была сегментированной (яркие контрастные переходы, в лучшем случае - готовый пиксельарт).
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">&copy; Валеева Рената &nbsp; &nbsp; Бочкарев Марк</div>
+</body>
+</html>

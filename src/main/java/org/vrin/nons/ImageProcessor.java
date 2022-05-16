@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 
 //пока не законченный класс, который будет обрабатывать получаемое изображение и преобразовывать его в нонограмм
-class ImageProcess {
+class ImageProcessor {
     File output = new File("Nons/input/processed_IMG.png"); //позже будет заменено
     BufferedImage result;
     Color[][] grid = new Color[20][20];

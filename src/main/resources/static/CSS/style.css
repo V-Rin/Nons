@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+}
+
+*{
+    margin: 0px 0px 0px 0%; /* Значения отступов */
+    color: rgb(20, 35, 54);
+    border-color: rgb(20, 35, 54);
+}
+
+body{
+    height: auto;
+    font-family: 'Source Sans Pro', sans-serif, "Arial";
+    background-image: url("../Images/background.jpg");
+}
+
+#header { /* Верхний блок */
+    background: white;
+    align-content: center;
+    height: 10vh;
+    border-bottom: solid 0.5vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#footer{
+    background: white;
+    height: 5vh;
+    align-content: center;
+    border-top: solid 0.5vh;
+    font-size: 2vh;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#content { /* Правая колонка */
+    height: 100%;
+    width: 50vw;
+    background: rgba(255, 255, 255, 0.886);
+    box-shadow: 0 0 5px 10px rgba(255, 255, 255, 0.886);
+}
+
+#wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+
+#logo{
+    height: 100%;
+}

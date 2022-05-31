@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Nons Page</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+
+</head>
+
+<body>
+<div id="header">
+    <img id="logo" src="../Images/logo.png">
+</div>
+
+<div id="wrapper">
+    <div id="content">
+        <div>
+            <h2 style="font-style: italic;text-align: center">
+                <br> Картинка была преобразованна в нонограмм!
+                <br> Вы можете скачать головоломку по ссылке ниже
+            </h2>
+            <div th:each="file : ${files}">
+                        <a th:href="${file}" th:text=Загрузка style="display: flex; justify-content: center;"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">&copy; Валеева Рената &nbsp; &nbsp; Бочкарев Марк</div>
+</body>
+</html>
